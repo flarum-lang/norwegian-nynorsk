@@ -1,20 +1,20 @@
 {
-	"name": "flarum-lang/xxish",
+	"name": "flarum-lang/norwegian-nynorsk",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/xxish",
+	"description": "Norwegian Nynorsk language pack for Flarum.",
+	"homepage": "https://github.com/flarum-lang/norwegian-nynorsk",
 	"keywords": [
 		"locale",
 		"flarum",
 		"flarum-locale",
-		"xx-locale",
-		"xxish-locale",
-		"xxish"
+		"nn-locale",
+		"norwegian-nynorsk-locale",
+		"norwegian-nynorsk"
 	],
 	"license": "MIT",
 	"support": {
-		"issues": "https://github.com/flarum-lang/xxish/issues",
-		"source": "https://github.com/flarum-lang/xxish"
+		"issues": "https://github.com/flarum-lang/norwegian-nynorsk/issues",
+		"source": "https://github.com/flarum-lang/norwegian-nynorsk"
 	},
 	"require": {
 		"flarum/core": "^1.6"
@@ -23,7 +23,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Xxish",
+			"title": "Norwegian Nynorsk",
 			"category": "language",
 			"icon": {
 				"image": "icon.svg",
@@ -32,8 +32,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
+			"code": "nn",
+			"title": "Norwegian Nynorsk"
 		},
 		"extiverse": {
 			"discuss": ""
