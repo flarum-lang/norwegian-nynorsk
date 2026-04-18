@@ -11,7 +11,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/norwegian-nynorsk)](https://packagist.org/packages/flarum-lang/norwegian-nynorsk/stats) 
 [![Monthly Downloads](https://img.shields.io/packagist/dm/flarum-lang/norwegian-nynorsk)](https://packagist.org/packages/flarum-lang/norwegian-nynorsk/stats) 
 
-This language pack contains Norwegian Nynorsk translations for Flarum (compatible with `1.6.0` or newer) and popular extensions. Full list of supported extensions is available below.
+This language pack contains Norwegian Nynorsk translations for Flarum (compatible with `2.0.0` or newer) and popular extensions. Full list of supported extensions is available below.
 
 
 ## Installation
@@ -19,7 +19,7 @@ This language pack contains Norwegian Nynorsk translations for Flarum (compatibl
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/norwegian-nynorsk:dev-master
+composer require "flarum-lang/norwegian-nynorsk:@dev"
 ```
 
 Then enable extension in admin panel of your Flarum.
