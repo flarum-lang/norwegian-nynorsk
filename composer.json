@@ -1,27 +1,24 @@
 {
 	"name": "flarum-lang/norwegian-nynorsk",
+	"description": "Norwegian Nynorsk Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Norwegian Nynorsk language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/norwegian-nynorsk",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"nn-locale",
-		"norwegian-nynorsk-locale",
-		"norwegian-nynorsk"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/norwegian-nynorsk",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/norwegian-nynorsk/issues",
+		"forum": "https://discuss.flarum.org/d/40206",
 		"source": "https://github.com/flarum-lang/norwegian-nynorsk"
 	},
 	"require": {
 		"flarum/core": "^1.6"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Norwegian Nynorsk",
 			"category": "language",
@@ -33,13 +30,7 @@
 		},
 		"flarum-locale": {
 			"code": "nn",
-			"title": "Norwegian Nynorsk"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Norsk nynorsk"
 		}
 	}
 }
